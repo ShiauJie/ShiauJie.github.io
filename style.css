@@ -32,13 +32,13 @@ h4   {
        padding-left:  50px;
 }
 
-#Left{
+#Right{
        border: 5px solid #FFFFFF;
        background-image: url("BG2.png");
-       width:300px;
+       width:450px;
        height:5000px;
        text-align:center;
-       float:left;
+       float:Right;
 }
 
 
