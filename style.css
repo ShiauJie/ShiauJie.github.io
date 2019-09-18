@@ -5,22 +5,38 @@ body {
 
 
 h1   {
-       color: midnightblue;
+       color: steelblue;
+       font-family: cursive;
+       font-size: 60px;
 }
 
 h2   {
-       color: midnightblue;
+       color: steelblue;
+       font-family:cursive;
+       font-size: 32px;
 }
 h3   {
-       color: steelblue;
+       color: darkcyan;
+       font-family:cursive;
+       font-size: 25px;
 }
 
 p    {
-       color: navy;
+       color: darkcyan;
+       font-family:cursive;
+       font-size: 20px;
 }
 
 h4   {
+       color: steelblue;
+       font-family:cursive;
+       font-size: 20px;
+}
+
+a    {
        color: darkcyan;
+       font-family:cursive;
+       font-size: 20px;
 }
 
 #Head{
@@ -35,7 +51,7 @@ h4   {
        border: 5px solid #FFFFFF;
        background-image: url("BG2.png");
        width:450px;
-       height:500px;
+       height:600px;
        text-align:center;
        float:Right;
 }
