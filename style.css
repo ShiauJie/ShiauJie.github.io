@@ -41,17 +41,18 @@ a    {
 
 #Head{
        border: 5px solid #FFFFFF;
-       background-image: url("BG2.png");
+       background-image: url("BGcat2.JPG");
+       //width:1492px;
+       height:340px;
        padding-right: 50px;
        padding-left:  50px;
-       height:400px;
 }
 
 #Right{
        border: 5px solid #FFFFFF;
        background-image: url("BG2.png");
        width:450px;
-       height:600px;
+       height:700px;
        text-align:center;
        float:Right;
 }
