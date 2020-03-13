@@ -22,7 +22,7 @@ h3   {
 }
 
 p    {
-       color: darkcyan;
+       color: #475e5c;
        font-family:cursive;
        font-size: 20px;
 }
@@ -34,16 +34,29 @@ h4   {
 }
 
 a    {
-       color: darkcyan;
+       color: #475e5c;
        font-family:cursive;
        font-size: 20px;
 }
 
+.button {
+       background-color: #eddfab; 
+       border: 5px dashed #FFFFFF;
+       border-radius: 2px;
+       color: steelblue;
+       padding: 15px 75px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-family:cursive;
+       font-size: 25px;
+}
+
 #Head{
        border: 5px solid #FFFFFF;
-       background-image: url("BGcat2.JPG");
-       //width:1492px;
-       height:340px;
+       background-image: url("BGcat.JPG");
+       background-repeat: no-repeat;
+       background-size: cover;
        padding-right: 50px;
        padding-left:  50px;
 }
