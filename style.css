@@ -50,7 +50,22 @@ a    {
        display: inline-block;
        font-family:cursive;
        font-size: 25px;
+       transition-duration: 0.4s;
 }
+
+.button:hover {
+       background-color: #bad1ce; 
+       border: 8px dashed #FFFFFF;
+       border-radius: 2px;
+       color: steelblue;
+       padding: 15px 75px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-family:cursive;
+       font-size: 25px;
+}
+
 
 #Head{
        border: 5px solid #FFFFFF;
