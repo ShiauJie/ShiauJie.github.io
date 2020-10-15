@@ -33,47 +33,60 @@ h4   {
        font-size: 20px;
 }
 
-a    {
+h5   {
        color: #5d704d;
        font-family:cursive;
        font-size: 20px;
 }
 
+a    {
+       color: #5d704d;
+       font-family:cursive;
+       font-size: 20px;
+       text-decoration: none;
+}
+
 .button {
+       overflow: hidden;
        background-color: #eff0b1; 
+}
+
+.button a {
+       float:left;
        border: 5px dashed #FFFFFF;
        border-radius: 2px;
        color: steelblue;
        padding: 15px 75px;
        text-align: center;
-       text-decoration: none;
-       display: inline-block;
+       display: block;
        font-family:cursive;
        font-size: 25px;
        transition-duration: 0.4s;
+       text-decoration: none;
 }
 
-.button:hover {
+.button a:hover {
        background-color: #bad1ce; 
-       border: 8px dashed #FFFFFF;
-       border-radius: 2px;
+       /*border: 8px dashed #FFFFFF;
+       border-radius: 2px;*/
        color: steelblue;
-       padding: 15px 75px;
+       /*padding: 15px 75px;
        text-align: center;
        text-decoration: none;
-       display: inline-block;
+       display: block;
        font-family:cursive;
-       font-size: 25px;
+       font-size: 25px;*/
 }
 
-#Head{
+.header{
        border: 5px solid #FFFFFF;
        background-image: url("BGcat.JPG");
        background-repeat: no-repeat;
        background-size: cover;
        text-align: center;
-       padding-right: 50px;
-       padding-left:  50px;
+       padding: 80px;
+       /*padding-right: 50px;
+       padding-left:  50px;*/
 }
 
 #Right{
